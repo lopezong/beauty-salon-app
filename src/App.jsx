@@ -10,6 +10,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/beauty-salon-app/" element={<Home />} />
       <Route path="/booking" element={<Booking />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
