@@ -6,13 +6,14 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/");
+
+    // Redirect to payment page after login
+    navigate("/payment");
   };
 
   return (
     <section className="login-page">
       <div className="login-card">
-
         <div className="auth-tabs">
           <Link to="/login" className="active">
             Login
@@ -57,7 +58,6 @@ function Login() {
           Don't have an account?{" "}
           <Link to="/register">Register</Link>
         </p>
-
       </div>
     </section>
   );
